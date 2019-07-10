@@ -24,3 +24,12 @@
 	}
   
   
+
+## example:
+```
+ OkHttpClient okHttpClient=new OkHttpClient.Builder().build();
+ Properties properties=new Properties();
+ properties.setProperty("host","x x x");
+ BtcdClient btcdClient=new BtcdClientImpl(okHttpClient,properties);
+ btcdClient.getBestBlockHash();
+```
