@@ -10,7 +10,7 @@
 
 
 
- ##gradle:
+ ## gradle:
 	    
       allprojects {
 		  repositories {
